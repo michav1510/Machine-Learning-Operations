@@ -49,7 +49,15 @@ we register it manually:
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
 
 * Consuming the the REST endpoint via the url : 
+We have senth two jsons requests and we get two responses "yes" and "no" as it is depicted in the below image.
 ![Step6 consume model endpoints](/screenshots/step6_json_result.png)
+
+* In order to load-test our model we have run the benchmark.sh. We run it in git bash and write "bash benchmark.sh"
+![Step6 benchmark](/screenshots/step6(optional)benchmark1.png)
+![Step6 benchmark](/screenshots/step6(optional)benchmark2.png)
+![Step6 benchmark](/screenshots/step6(optional)benchmark3.png)
+![Step6 benchmark](/screenshots/step6(optional)benchmark4.png)
+![Step6 benchmark](/screenshots/step6(optional)benchmark5.png)
 
 
 

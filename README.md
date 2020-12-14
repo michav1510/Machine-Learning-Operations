@@ -60,6 +60,7 @@ We have senth two jsons requests and we get two responses "yes" and "no" as it i
 ![Step6 benchmark](/screenshots/step6(optional)benchmark5.png)
 As you can see in the last image you see some gathered data about the requests have been done with the benchmark.
 
+* After we ran the 
 
 
 ## Screen Recording

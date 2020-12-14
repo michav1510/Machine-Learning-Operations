@@ -22,18 +22,18 @@ The steps below describe the whole procedure from the dataset registration to th
 ## Key Steps
 
 * Dataset registration. You can see below two datasets but they are identical, with different names. The one was ready from the loading of the Lab and the other one
-I register it manually.
+we register it manually.
 
 ![Step2 registered datasets](/screenshots/step2_registered_datasets.png)
-Format: ![Alt Text](url)
 
 * After the AutoML finished(first image below), you can see the best model(second image below).
 
 ![Step2 experiment completed](/screenshots/step2_experiment_completed.png)
-Format: ![Alt Text](url)
 
 ![Step2 best model](/screenshots/step2_best_model.png)
-Format: ![Alt Text](url)
+
+* After we deployed the best model, we enabled the application insights 
+![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:

@@ -22,23 +22,35 @@ The steps below describe the whole procedure from the dataset registration to th
 ## Key Steps
 
 * Dataset registration. You can see below two datasets but they are identical, with different names. The one was ready from the loading of the Lab and the other one
-we register it manually.
+we register it manually:
 
 ![Step2 registered datasets](/screenshots/step2_registered_datasets.png)
 
-* After the AutoML finished(first image below), you can see the best model(second image below).
+* After the AutoML finished(first image below), you can see the best model(second image below):
 
 ![Step2 experiment completed](/screenshots/step2_experiment_completed.png)
 
 ![Step2 best model](/screenshots/step2_best_model.png)
 
-* After we deployed the best model, we enabled the application insights 
+* After we deployed the best model, we enabled the application insights: 
 ![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
 
-* We ran the log.py, and we show below the output 
-![Step3 logs.py script](/screenshots/step4_logs_script_part3.png)
-![Step3 logs.py script](/screenshots/step4_logs_script_part2.png)
-![Step3 logs.py script](/screenshots/step4_logs_script_part1.png)
+* We ran the logs.py, and we show below the output: 
+![Step4 logs.py script](/screenshots/step4_logs_script_part3.png)
+![Step4 logs.py script](/screenshots/step4_logs_script_part2.png)
+![Step4 logs.py script](/screenshots/step4_logs_script_part1.png)
+
+* Making the swagger to run on localhost, showing the HTTP API methods and responses: 
+![Step5 methods and responses](/screenshots/step5_methods_and_responses.png)
+![Step5 methods and responses](/screenshots/step5_methods_and_responses2.png)
+![Step5 methods and responses](/screenshots/step5_methods_and_responses3.png)
+![Step5 methods and responses](/screenshots/step5_methods_and_responses4.png)
+![Step5 methods and responses](/screenshots/step5_methods_and_responses5.png)
+![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
+
+* Consuming the the REST endpoint via the url : 
+![Step6 consume model endpoints](/screenshots/step6_json_result.png)
+
 
 
 ## Screen Recording

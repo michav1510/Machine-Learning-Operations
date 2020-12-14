@@ -35,6 +35,12 @@ we register it manually.
 * After we deployed the best model, we enabled the application insights 
 ![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
 
+* We ran the log.py, and we show below the output 
+![Step3 logs.py script](/screenshots/step4_logs_script_part3.png)
+![Step3 logs.py script](/screenshots/step4_logs_script_part2.png)
+![Step3 logs.py script](/screenshots/step4_logs_script_part1.png)
+
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 

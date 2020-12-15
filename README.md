@@ -75,7 +75,9 @@ the pipeline endpoint, the bankmarketing dataset with the AutoML module, the RES
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+You can see a screencast that shows to you the working deployed model endpoint, the deployed pipeline, the AutoML model and successfull
+API requests we have done: 
+https://youtu.be/_Yy5srWkw7Y
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.

@@ -60,7 +60,21 @@ We have senth two jsons requests and we get two responses "yes" and "no" as it i
 ![Step6 benchmark](/screenshots/step6(optional)benchmark5.png)
 As you can see in the last image you see some gathered data about the requests have been done with the benchmark.
 
-* After we ran the 
+* After we ran the all the cells in the aml-pipelines-with-automated-machine-learning-step.ipynb, we can see below in the images the pipeline creation, 
+the pipeline endpoint, the bankmarketing dataset with the AutoML module, the REST endpoint with the status of "ACTIVE", the jupyter notebook showing the "Use RunDetails Widget" which is showing the step have been done and the scheduled runs.
+![Step7 pipeline creation](/screenshots/step7_pipeline_created1.png)
+![Step7 pipeline endpoint](/screenshots/step7_pipeline_endpoint_completed1.png)
+![Step7 bankmarketing dataset](/screenshots/step7_datasets1.png)
+![Step7 bankmarketing dataset](/screenshots/step7_datasets2.png)
+![Step7 restpoint status active](/screenshots/step7_published_pipeline_overview_1.png)
+![Step7 restpoint status active](/screenshots/step7_published_pipeline_overview_2.png)
+![Step7 restpoint status active](/screenshots/step7_published_pipeline_overview_3.png)
+![Step7 restpoint status active](/screenshots/step7_published_pipeline_overview_4.png)
+![Step7 restpoint status active](/screenshots/step7_published_pipeline_overview_5.png)
+![Step7 jupyter notebook use rundetails](/screenshots/step7_use_run_details_1.png)
+![Step7 jupyter notebook use rundetails](/screenshots/step7_use_run_details_2.png )
+![Step7 scheduled run](/screenshots/unknown_step.png)
+![Step7 unused](/screenshots/step7_pipeline_endpoint.png)
 
 
 ## Screen Recording

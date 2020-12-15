@@ -1,7 +1,4 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
-# Your Project Title Here
+# Machine Learning Operation
 In this project we are operationalizing Machine Learning tasks and consume them from a REST endpoint.
 
 ## Architectural Diagram

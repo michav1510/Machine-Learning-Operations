@@ -5,6 +5,7 @@ In this project we are operationalizing Machine Learning tasks.
 In this project we have two different tasks.
 
 In the first task:
+
 * Register of the [bankmarketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 This dataset contains data about bank marketing campaigns based on phone calls to potential clients. The campaign has as target to convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would accept to make a term deposit with the bank.
 
@@ -15,8 +16,18 @@ This dataset contains data about bank marketing campaigns based on phone calls t
 * Consuming the REST endpoint, so we send json requests to the REST endpoint to get predictions.
 
 In the second task:
-We create and publish a pipeline. Pipeline is a workflow of a complete machine learning task, the subtasks are incorporated in the pipeline as series of steps.
-* 
+
+We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow of a complete machine learning task, the subtasks are incorporated in the pipeline as series of steps.
+
+* Initialize the ```Workspace```, reload the ```Experiment``` the cluster and the ```Dataset``` from the first task.
+
+* Setting the AutoML settings and configuration in order to incorporate an ```AutoMLStep``` in the pipeline. Setting also ```PipelineData``` for the metrics output and the best model output of the pipeline.
+
+* Creation of the ```Pipeline``` and running.
+
+* Retrieve the metrics(such as ```weighted_accuracy```, ```AUC_weighted```, ```average_precision_score_macro```, ```f1_score_micro```)  of all child runs and the best model.
+
+* Publishing the pipeline so that you can rerun the pipeline via the REST endpoint.
 
 
 ## Architectural Diagram

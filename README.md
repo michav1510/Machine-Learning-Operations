@@ -13,7 +13,7 @@ In the first task:
 * Register of the [bankmarketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 This dataset contains data about bank marketing campaigns based on phone calls to potential clients. The campaign has as target to convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would accept to make a term deposit with the bank.
 
-* Running AutoML classification from Azure ML studio. This will run many algorithms and finds the best algorithm based on the accuracy.
+* Running AutoML and choose classification from Azure ML studio. This will run many algorithms and finds the best algorithm based on the accuracy.
 
 * Deploying the best model. We choose the best model and deploy it, a REST endpoint will be made.
 
@@ -42,21 +42,20 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 
 ## Key Steps
 
-* Dataset registration. You can see below two datasets but they are identical, with different names. The one was ready from the loading of the Lab and the other one
-we register it manually:
+About the first task:
+* After the registration of the aforementioned(above)dataset we can see the registered datasets as below:
 
 ![Step2 registered datasets](/screenshots/step2_registered_datasets.png)
 
-* After the AutoML finished(first image below), you can see the best model(second image below):
+* After the AutoML has finished you can see the status "Completed" as below, with other useful information such as the duration and the compute target.
 
 ![Step2 experiment completed](/screenshots/step2_experiment_completed.png)
 
+* If you select the run of the AutoML and select "Models" you can see the list of all the models in descent order of accuracy. As you can see below the best algorithm was "Voting Ensemble".
 ![Step2 best model](/screenshots/step2_best_model.png)
 
-* After we deployed the best model, we enabled the application insights: 
+* In the deployment of the module in order to make a REST endpoint to interact with. A pretty useful thing of the endpoint is the application insigths. With the application insights you can see the "Failed Requests", "Server Response Time" and "Server Requests" and other useful things. We enabled with running the "logs.py" script. Below you see in the first image that the "Applications Insights Enabled" as "true" and to the next three images the running of the "logs.py" in the command prompt.
 ![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
-
-* We ran the logs.py, and we show below the output: 
 ![Step4 logs.py script](/screenshots/step4_logs_script_part3.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part2.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part1.png)

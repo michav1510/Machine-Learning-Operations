@@ -1,5 +1,19 @@
 # Machine Learning Operation
-In this project we are operationalizing Machine Learning tasks and consume them from a REST endpoint.
+In this project we are operationalizing Machine Learning tasks.
+
+# Overview
+In this project we have two different tasks.
+
+In the first task:
+* Register of the [bankmarketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
+This dataset contains data about bank marketing campaigns based on phone calls to potential clients. The campaign has as target to convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would accept to make a term deposit with the bank.
+
+* Running AutoML classification from Azure ML studio. This will run many algorithms and finds the best algorithm based on the accuracy.
+
+* Deploying the best model. We choose the best model and deploy it, a REST endpoint will be made. So you can interact from the internet with the model to get predictions
+
+* Consuming the REST endpoint. 
+
 
 ## Architectural Diagram
 The steps below describe the whole procedure from the dataset registration to the REST endpoint consuming.
@@ -15,6 +29,9 @@ The steps below describe the whole procedure from the dataset registration to th
 *Create, publish and consume a pipeline.
 
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+## Future Improvements
+* If we add kind of alert when the dataset changes and if it will change then the pipeline will run.
 
 ## Key Steps
 

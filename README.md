@@ -29,6 +29,7 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 
 * Publishing the pipeline so that you can rerun the pipeline via the REST endpoint.
 
+* Making a request to the REST endpoint with a JSON payload object that has the experiment name in it.
 
 ## Architectural Diagram
 The steps below describe the whole procedure from the dataset registration to the REST endpoint consuming.

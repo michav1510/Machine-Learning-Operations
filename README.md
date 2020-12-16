@@ -68,7 +68,7 @@ About the first task:
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses5.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
 
-* The most useful thing about deploying a REST endpoint is to consuming it i.e to send HTTP requests with a json and to take responses. In our case the json has as values the x's of which the y's want to be predicted from the model. So we replace in the "endpoint.py" the "scoring_uri" and the 
+* The most useful thing about deploying a REST endpoint is to consuming it i.e to send HTTP requests with a json and to take responses. In our case the json has as values the x's of which the y's want to be predicted from the model. So we replace in the "endpoint.py" the "scoring_uri" and the "key" with the values that are visible to the endpoint in the ML studio. Then we run the "endpoint.py" and get the result as the below image depict, the response was "yes" and "no" for the first and second json respectively.
 ![Step6 consume model endpoints](/screenshots/step6_json_result.png)
 
 * In order to load-test our model we have run the benchmark.sh. We run it in git bash and write "bash benchmark.sh"

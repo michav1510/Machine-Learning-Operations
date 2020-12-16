@@ -54,13 +54,13 @@ About the first task:
 * If you select the run of the AutoML and select "Models" you can see the list of all the models in descent order of accuracy. As you can see below the best algorithm was "Voting Ensemble".
 ![Step2 best model](/screenshots/step2_best_model.png)
 
-* In the deployment of the module in order to make a REST endpoint to interact with. A pretty useful thing of the endpoint is the application insigths. With the application insights you can see the "Failed Requests", "Server Response Time" and "Server Requests" and other useful things. We enabled with running the "logs.py" script. Below you see in the first image that the "Applications Insights Enabled" as "true" and to the next three images the running of the "logs.py" in the command prompt.
+* After the deployment of the model in order to make a REST endpoint to interact with. A pretty useful thing of the endpoint is the application insigths. With the application insights you can see the "Failed Requests", "Server Response Time" and "Server Requests" and other useful things. We enabled with running the "logs.py" script. Below you see in the first image that the "Applications Insights Enabled" as "true" and to the next three images the running of the "logs.py" in the command prompt.
 ![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part3.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part2.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part1.png)
 
-* Making the swagger to run on localhost, showing the HTTP API methods and responses: 
+* If we hit the "Swagger URI" in the deployed model(you can see it in the first of the previous 4 images) we can download the swagger.json. If we place it in the "swagger" folder and run the "swagger.sh"(choosing the right port in the file) and the "serve.py"(choosing the right port in the file) and open the localhost as the below images showing, you can see all the HTTP API methods and responses.
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses2.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses3.png)
@@ -69,7 +69,7 @@ About the first task:
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
 
 * Consuming the the REST endpoint via the url : 
-We have senth two jsons requests and we get two responses "yes" and "no" as it is depicted in the below image.
+We have sent two jsons requests and we get two responses "yes" and "no" as it is depicted in the below image.
 ![Step6 consume model endpoints](/screenshots/step6_json_result.png)
 
 * In order to load-test our model we have run the benchmark.sh. We run it in git bash and write "bash benchmark.sh"

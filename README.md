@@ -60,7 +60,7 @@ About the first task:
 ![Step4 logs.py script](/screenshots/step4_logs_script_part2.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part1.png)
 
-* If we hit the "Swagger URI" in the deployed model(you can see it in the first of the previous 4 images) we can download the swagger.json. If we place it in the "swagger" folder and run the "swagger.sh"(choosing the right port in the file) and the "serve.py"(choosing the right port in the file) and open the localhost as the below images showing, you can see all the HTTP API methods and responses.
+* If we hit the "Swagger URI" in the deployed model(you can see it in the first of the previous 4 images) we can download the swagger.json. If we place it in the "swagger" folder and run the "bash swagger.sh"(choosing the right port in the file) and the "serve.py"(choosing the right port in the file) and open the localhost as the below images showing, you can see all the HTTP API methods and responses.
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses2.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses3.png)
@@ -68,8 +68,7 @@ About the first task:
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses5.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
 
-* Consuming the the REST endpoint via the url : 
-We have sent two jsons requests and we get two responses "yes" and "no" as it is depicted in the below image.
+* The most useful thing about deploying a REST endpoint is to consuming it i.e to send HTTP requests with a json and to take responses. In our case the json has as values the x's of which the y's want to be predicted from the model. So we replace in the "endpoint.py" the "scoring_uri" and the 
 ![Step6 consume model endpoints](/screenshots/step6_json_result.png)
 
 * In order to load-test our model we have run the benchmark.sh. We run it in git bash and write "bash benchmark.sh"

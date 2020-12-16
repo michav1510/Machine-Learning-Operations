@@ -10,9 +10,13 @@ This dataset contains data about bank marketing campaigns based on phone calls t
 
 * Running AutoML classification from Azure ML studio. This will run many algorithms and finds the best algorithm based on the accuracy.
 
-* Deploying the best model. We choose the best model and deploy it, a REST endpoint will be made. So you can interact from the internet with the model to get predictions
+* Deploying the best model. We choose the best model and deploy it, a REST endpoint will be made.
 
-* Consuming the REST endpoint. 
+* Consuming the REST endpoint, so we send json requests to the REST endpoint to get predictions.
+
+In the second task:
+We create and publish a pipeline. Pipeline is a workflow of a complete machine learning task, the subtasks are incorporated in the pipeline as series of steps.
+* 
 
 
 ## Architectural Diagram

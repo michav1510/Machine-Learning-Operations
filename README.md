@@ -17,6 +17,8 @@ This dataset contains data about bank marketing campaigns based on phone calls t
 
 * Deploying the best model. We choose the best model and deploy it, a REST endpoint will be made.
 
+* Enable the application insights, producing Swagger documentation and benchmarking the REST endpoint.
+
 * Consuming the REST endpoint, so we send json requests to the REST endpoint to get predictions.
 
 In the second task:

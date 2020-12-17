@@ -52,15 +52,18 @@ About the first task:
 ![Step2 experiment completed](/screenshots/step2_experiment_completed.png)
 
 * If you select the run of the AutoML and select "Models" you can see the list of all the models in descent order of accuracy. As you can see below the best algorithm was "Voting Ensemble".
+
 ![Step2 best model](/screenshots/step2_best_model.png)
 
 * After the deployment of the model in order to make a REST endpoint to interact with. A pretty useful thing of the endpoint is the application insigths. With the application insights you can see the "Failed Requests", "Server Response Time" and "Server Requests" and other useful things. We enabled with running the "logs.py" script. Below you see in the first image that the "Applications Insights Enabled" as "true" and to the next three images the running of the "logs.py" in the command prompt.
+
 ![Step3 application insights enabled](/screenshots/step4_applications_insights_enabled.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part3.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part2.png)
 ![Step4 logs.py script](/screenshots/step4_logs_script_part1.png)
 
 * If we hit the "Swagger URI" in the deployed model(you can see it in the first of the previous 4 images) we can download the swagger.json. If we place it in the "swagger" folder and run the "bash swagger.sh"(choosing the right port in the file) and the "serve.py"(choosing the right port in the file) and open the localhost as the below images showing, you can see all the HTTP API methods and responses.
+
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses2.png)
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses3.png)
@@ -69,14 +72,17 @@ About the first task:
 ![Step5 methods and responses](/screenshots/step5_methods_and_responses6.png)
 
 * The most useful thing about deploying a REST endpoint is to consuming it i.e to send HTTP requests with a json and to take responses. In our case the json has as values the x's of which the y's want to be predicted from the model. So we replace in the "endpoint.py" the "scoring_uri" and the "key" with the values that are visible to the endpoint in the ML studio. Then we run the "endpoint.py" and get the result as the below image depict, the response was "yes" and "no" for the first and second json respectively.
+
 ![Step6 consume model endpoints](/screenshots/step6_json_result.png)
 
-* In order to load-test our model we have run the benchmark.sh. We run it in git bash and write "bash benchmark.sh"
+* In order to load-test our model we have run the benchmark.sh. Some requests are proceed to the endpoint and useful metrics about the total time of requests, the total requests, how many requests have been failed and other metrics as the results show below. 
+
 ![Step6 benchmark](/screenshots/step6(optional)benchmark1.png)
 ![Step6 benchmark](/screenshots/step6(optional)benchmark2.png)
 ![Step6 benchmark](/screenshots/step6(optional)benchmark3.png)
 ![Step6 benchmark](/screenshots/step6(optional)benchmark4.png)
 ![Step6 benchmark](/screenshots/step6(optional)benchmark5.png)
+
 As you can see in the last image you see some gathered data about the requests have been done with the benchmark.
 
 * After we ran the all the cells in the aml-pipelines-with-automated-machine-learning-step.ipynb, we can see below in the images the pipeline creation, 

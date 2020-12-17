@@ -8,7 +8,7 @@ In this project we are operationalizing Machine Learning tasks.
 
 In this project we have two different tasks.
 
-### First task:
+### Deploy Model in Azure ML Studio:
 
 * Register of the [bankmarketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 This dataset contains data about bank marketing campaigns based on phone calls to potential clients. The campaign has as target to convince the potential clients to make a term deposit with the bank. We seek to predict whether or not the potential client would accept to make a term deposit with the bank.
@@ -21,7 +21,7 @@ This dataset contains data about bank marketing campaigns based on phone calls t
 
 * Consuming the REST endpoint, so we send json requests to the REST endpoint to get predictions.
 
-### Second task:
+### Publish ML Pipeline:
 
 We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow of a complete machine learning task, the subtasks are incorporated in the pipeline as series of steps.
 
@@ -44,7 +44,7 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 
 ## Key Steps
 
-### First task:
+### Deploy Model in Azure ML Studio:
 
 * After the registration of the aforementioned(above)dataset we can see the registered datasets as below:
 
@@ -88,10 +88,9 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 
 As you can see in the last image you see some gathered data about the requests have been done with the benchmark.
 
-### Second task:
+### Publish ML Pipeline:
 
-* After we ran the all the cells in the aml-pipelines-with-automated-machine-learning-step.ipynb, we can see below in the images the pipeline creation, 
-the pipeline endpoint, the bankmarketing dataset with the AutoML module, the REST endpoint with the status of "ACTIVE", the jupyter notebook showing the "Use RunDetails Widget" which is showing the step have been done and the scheduled runs.
+* 
 
 ![Step7 pipeline creation](/screenshots/step7_pipeline_created1.png)
 ![Step7 pipeline endpoint](/screenshots/step7_pipeline_endpoint_completed1.png)

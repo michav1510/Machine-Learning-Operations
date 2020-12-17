@@ -90,9 +90,12 @@ As you can see in the last image you see some gathered data about the requests h
 
 ### Publish ML Pipeline:
 
-* 
+* Creation of the pipeline from the Azure SDK using the "aml-pipelines-with-automated-machine-learning-step.ipynb" notebook depicted below.
 
 ![Step7 pipeline creation](/screenshots/step7_pipeline_created1.png)
+
+* 
+
 ![Step7 pipeline endpoint](/screenshots/step7_pipeline_endpoint_completed1.png)
 ![Step7 bankmarketing dataset](/screenshots/step7_datasets1.png)
 ![Step7 bankmarketing dataset](/screenshots/step7_datasets2.png)

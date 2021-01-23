@@ -1,8 +1,12 @@
-# Machine Learning Operation
-In this project we are operationalizing Machine Learning tasks.
-
 # Overview
+This project is the second project of the Udacity's "Machine Learning Engineer with Microsoft Azure" Nanodegree.
+It consists of two parts:
 
+* In the first part we use AutoML in our [bankmarketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv), find the best model and deploy it via a REST API. We also use the Swagger in order to see the documentation of the API that we deployed.
+
+* In the second part we create and publish a pipeline using the Azure ML SDK, while we use the same dataset.
+
+Feel free to read below more details about each task.
 
 ## Architectural Diagram
 

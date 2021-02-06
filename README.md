@@ -9,8 +9,8 @@ It consists of two parts:
 Feel free to read below more details about each task.
 
 ## Architectural Diagram
-
-In this project we have two different tasks.
+One image corresponds to many words, so below you see the architectural diagram of the operations in this project.
+![Step4 logs.py script](/screenshots/Architectural_Diagram.png)
 
 ### Deploy Model in Azure ML Studio:
 

@@ -42,8 +42,6 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 
 * Making a request to the REST endpoint with a JSON payload object that has the experiment name in it.
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
-
 ## Future Improvements
 
 * We could add an alert when the dataset changes so that we could be notified and done it in an automated way and/or running a script in an automated way.
@@ -102,7 +100,7 @@ As you can see in the last image you see some gathered data about the requests h
 
 ![Step7 pipeline creation](/screenshots/step7_pipeline_created1.png)
 
-* 
+* Below we see in turn the pipeline endpoint completion, the bank marketin dataset(2 images), published pipeline overview(5 images due to small screen size).
 
 ![Step7 pipeline endpoint](/screenshots/step7_pipeline_endpoint_completed1.png)
 ![Step7 bankmarketing dataset](/screenshots/step7_datasets1.png)

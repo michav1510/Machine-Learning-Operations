@@ -45,7 +45,10 @@ We create and publish a pipeline using the Azure ML SDK. Pipeline is a workflow 
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Future Improvements
-* If we add kind of alert when the dataset changes and if it will change then the pipeline will run.
+
+* We could add an alert when the dataset changes so that we could be notified and done it in an automated way and/or running a script in an automated way.
+
+* Increase the time of training in order to have more accurate predictions.
 
 ## Key Steps
 

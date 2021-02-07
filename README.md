@@ -119,4 +119,4 @@ As you can see in the last image you see some gathered data about the requests h
 ## Screen Recording
 You can see a screencast that shows to you the working deployed model endpoint, the deployed pipeline, the AutoML model and successfull
 API requests we have done: 
-https://youtu.be/JQhipyVxauE
+https://youtu.be/DupqQufr0Ek
